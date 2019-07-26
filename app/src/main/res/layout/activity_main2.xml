@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                   android:orientation="vertical"
+              android:background="@android:color/holo_blue_light"
+                                   android:layout_marginTop="9dp"
+                                   android:layout_marginLeft="10dp"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="match_parent">
+
+
+<SearchView
+        android:id="@+id/search2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></SearchView>
+  <Button
+          android:id="@+id/gedata"
+          android:layout_marginTop="10dp"
+          android:hint="Get Data"
+          android:background="@drawable/register"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="10dp"
+            android:id="@+id/show"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+</LinearLayout>
